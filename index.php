@@ -10,11 +10,13 @@
             ini_set('display_errors', 1);
             ini_set('display_startup_errors', 1);
             error_reporting(E_ALL);
+            //starting PHP Hello World
             ?>
             <br>
             <?php
                 echo "Hello, world!";
                 echo "Hello,"." "."world"."!";
+            //PHP syntax and conditional statements
             ?>
             <br>
             <?php
@@ -99,6 +101,7 @@
             ?>
         <br>
             <?php
+            // This is the PHP arrays syntax
                 $myArray = array("do", "re", "mi"); //declares the array
                 echo $myArray[0]; //outputs "do"
                 $myArray[1] = "la"; // modifies position 1 (re)
@@ -115,6 +118,20 @@
             foreach ($provisionedActivities as $x) {
                 print "<p>$x</p>";
             }
+            ?>
+        <br>
+            <?php
+                //This is PHP loops
+                for ($i = 1; $i < 10; $i++)
+                {
+                    echo "<p>$x</p>";
+                }
+            ?>
+        <br>
+            <?php
+                foreach ($arrayelement as $x) {
+                    print "<p>$x</P>";
+                }
             ?>
     </body>
 </html>
