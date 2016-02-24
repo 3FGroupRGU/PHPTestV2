@@ -100,14 +100,21 @@
         <br>
             <?php
                 $myArray = array("do", "re", "mi"); //declares the array
-                echo $myArray[0] //outputs "do"
+                echo $myArray[0]; //outputs "do"
                 $myArray[1] = "la"; // modifies position 1 (re)
-                echo $myArray[1] // outpute "la"
+                echo $myArray[1]; // outpute "la"
                 unset($array[2]); //removes the array in position 2
             ?>
         <br>
             <?php
-
+            $provisionedActivities = array("Specs", "Drugs", "Rock", "Roll");
+            echo $provisionedActivities[0];
+            $provisionedActivities[1] = "hugs";
+            echo $provisionedActivities[1];
+            unset($array[2]);
+            foreach ($provisionedActivities as $x) {
+                print "<p>$x</p>";
+            }
             ?>
     </body>
 </html>
