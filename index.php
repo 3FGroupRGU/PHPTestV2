@@ -111,7 +111,7 @@
             echo $provisionedActivities[0];
             $provisionedActivities[1] = "Hugs";
             echo $provisionedActivities[1];
-            unset($array[2]);
+            unset($provisionedActivities[2]);
             foreach ($provisionedActivities as $x) {
                 print "<p>$x</p>";
             }
