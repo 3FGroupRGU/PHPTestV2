@@ -109,7 +109,7 @@
             <?php
             $provisionedActivities = array("Specs", "Drugs", "Rock", "Roll");
             echo $provisionedActivities[0];
-            $provisionedActivities[1] = "hugs";
+            $provisionedActivities[1] = "Hugs";
             echo $provisionedActivities[1];
             unset($array[2]);
             foreach ($provisionedActivities as $x) {
