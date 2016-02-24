@@ -53,7 +53,7 @@
                 print "Buy Specs, mugs and sausage rolls!";
             }
             elseif ($myage >= 18 ) {
-                print "Buy Mugs and specs!"
+                print "Buy Mugs and specs!";
                 }
             elseif ($myage >= 16) {
                 echo "You can buy specs!";
