@@ -80,5 +80,22 @@
                     echo "All the hobbits have gone home";
             }
             ?>
+        <br>
+            <?php
+                $wantedgood = "mugs"
+            switch ($wantedgood) {
+                    case 1:
+                        echo "You have to be 18 to buy mugs";
+                        break;
+                case 2:
+                    echo "You have to be 21 to buy sausage rolls";
+                    break;
+                case 3:
+                    echo "You have to be 16 to buy specs";
+                    break;
+                default:
+                    echo "You have to be 16 or over to buy anything from the list";
+                }
+            ?>
     </body>
 </html>
