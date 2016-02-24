@@ -97,5 +97,13 @@
                     echo "You have to be 16 or over to buy anything from the list";
                 }
             ?>
+        <br>
+            <?php
+                $myArray = array ("do", "re", "mi"); //declares the array
+                echo $myArray[0] //outputs "do"
+                $myArray[1] = "la"; // modifies position 1 (re)
+                echo $myArray[1] // outpute "la"
+                unset ($myArray[2]); //removes the array in position 2
+            ?>
     </body>
 </html>
